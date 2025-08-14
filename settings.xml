@@ -1,0 +1,9 @@
+<settings>
+  <servers>
+      <server>
+        <id>adobe-public-release</id>
+        <username>public-release</username>
+        <password>${env.ADOBE_NEXUS_PASSWORD}</password>
+      </server>
+  </servers>
+</settings>

@@ -233,5 +233,14 @@
             <version>${junit-version}</version>
             <scope>test</scope>
         </dependency>
-    </dependencies>
+      </dependencies>
+  <distributionManagement>
+    <repository>
+      <uniqueVersion>false</uniqueVersion>
+      <id>adobe-public-release</id>
+      <name>Public Release</name>
+      <url>${env.ADOBE_PUBLIC_RELEASE_URL}</url>
+      <layout>default</layout>
+    </repository>
+  </distributionManagement>
 </project>
